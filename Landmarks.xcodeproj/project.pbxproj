@@ -64,6 +64,9 @@
 		A70746A72AD382A60094CB9C /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				A7F27A3A2ACE6A3F003859BD /* LandmarkList.swift */,
+				A7F27A382ACE6786003859BD /* LandmarkRow.swift */,
+				A77146682AD19B25000AFA3A /* LandmarkDetail.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -112,9 +115,6 @@
 				A70746A72AD382A60094CB9C /* Landmarks */,
 				A70746A62AD3826D0094CB9C /* Helper */,
 				A753DDFF2ACD001B00E47300 /* ContentView.swift */,
-				A7F27A382ACE6786003859BD /* LandmarkRow.swift */,
-				A7F27A3A2ACE6A3F003859BD /* LandmarkList.swift */,
-				A77146682AD19B25000AFA3A /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
