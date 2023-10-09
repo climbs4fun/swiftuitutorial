@@ -38,7 +38,7 @@
 		A7CB0D532ACD134100A17CE7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		A7CB0D572ACE3A2500A17CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		A7E9A7B32AD47F68002C984B /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
-		A7E9A7B52AD488F4002C984B /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BadgeBackground.swift; path = "Landmarks/Preview Content/BadgeBackground.swift"; sourceTree = SOURCE_ROOT; };
+		A7E9A7B52AD488F4002C984B /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BadgeBackground.swift; path = "Landmarks/Views/New Group/BadgeBackground.swift"; sourceTree = SOURCE_ROOT; };
 		A7E9A7B72AD496C6002C984B /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		A7E9A7B92AD498BE002C984B /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 		A7E9A7BB2AD499EF002C984B /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
@@ -119,17 +119,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A7E9A7BD2AD49CCD002C984B /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				A7E9A7BB2AD499EF002C984B /* Badge.swift */,
+				A7E9A7B52AD488F4002C984B /* BadgeBackground.swift */,
+				A7E9A7B72AD496C6002C984B /* BadgeSymbol.swift */,
+				A7E9A7B92AD498BE002C984B /* RotatedBadgeSymbol.swift */,
+				A7E9A7B32AD47F68002C984B /* HexagonParameters.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		A7F27A352ACE66B6003859BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A7E9A7B52AD488F4002C984B /* BadgeBackground.swift */,
+				A753DDFF2ACD001B00E47300 /* ContentView.swift */,
+				A7E9A7BD2AD49CCD002C984B /* Badges */,
 				A70746A72AD382A60094CB9C /* Landmarks */,
 				A70746A62AD3826D0094CB9C /* Helper */,
-				A753DDFF2ACD001B00E47300 /* ContentView.swift */,
-				A7E9A7B32AD47F68002C984B /* HexagonParameters.swift */,
-				A7E9A7B72AD496C6002C984B /* BadgeSymbol.swift */,
-				A7E9A7B92AD498BE002C984B /* RotatedBadgeSymbol.swift */,
-				A7E9A7BB2AD499EF002C984B /* Badge.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
