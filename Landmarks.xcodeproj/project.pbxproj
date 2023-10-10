@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A70746A52AD381030094CB9C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70746A42AD381030094CB9C /* FavoriteButton.swift */; };
+		A74395402AD5D3E30072831F /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A743953F2AD5D3E30072831F /* hikeData.json */; };
 		A753DDFE2ACD001B00E47300 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A753DDFD2ACD001B00E47300 /* LandmarksApp.swift */; };
 		A753DE002ACD001B00E47300 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A753DDFF2ACD001B00E47300 /* ContentView.swift */; };
 		A753DE022ACD001E00E47300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A753DE012ACD001E00E47300 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		A70746A42AD381030094CB9C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		A743953F2AD5D3E30072831F /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hikeData.json; path = ../../../../../../../Downloads/AnimatingViewsAndTransitions/Resources/hikeData.json; sourceTree = "<group>"; };
 		A753DDFA2ACD001B00E47300 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A753DDFD2ACD001B00E47300 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		A753DDFF2ACD001B00E47300 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		A7F27A362ACE671D003859BD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A743953F2AD5D3E30072831F /* hikeData.json */,
 				A7F27A2F2ACE6389003859BD /* landmarkData.json */,
 			);
 			path = Resources;
@@ -217,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74395402AD5D3E30072831F /* hikeData.json in Resources */,
 				A753DE052ACD001E00E47300 /* Preview Assets.xcassets in Resources */,
 				A753DE022ACD001E00E47300 /* Assets.xcassets in Resources */,
 				A7F27A302ACE6389003859BD /* landmarkData.json in Resources */,
