@@ -142,6 +142,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A7B03DA42AD608FD00FA8A5B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		A7E9A7BD2AD49CCD002C984B /* Badges */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +164,7 @@
 		A7F27A352ACE66B6003859BD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A7B03DA42AD608FD00FA8A5B /* Categories */,
 				A74395412AD5D4520072831F /* Hikes */,
 				A753DDFF2ACD001B00E47300 /* ContentView.swift */,
 				A7E9A7BD2AD49CCD002C984B /* Badges */,
