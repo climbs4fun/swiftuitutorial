@@ -38,6 +38,9 @@ struct Badge: View {
     }
 }
 
-#Preview {
-    Badge()
+struct Badge_Previews: PreviewProvider {
+    static var previews: some View {
+        Badge()
+    }
 }
+
