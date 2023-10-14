@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A70746A52AD381030094CB9C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70746A42AD381030094CB9C /* FavoriteButton.swift */; };
 		A72094382AD8376200122CC3 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72094372AD8376200122CC3 /* PageViewController.swift */; };
-		A74395402AD5D3E30072831F /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A743953F2AD5D3E30072831F /* hikeData.json */; };
 		A74395462AD5D4520072831F /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74395422AD5D4520072831F /* GraphCapsule.swift */; };
 		A74395472AD5D4520072831F /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74395432AD5D4520072831F /* HikeGraph.swift */; };
 		A74395482AD5D4520072831F /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74395442AD5D4520072831F /* HikeDetail.swift */; };
@@ -42,12 +41,12 @@
 		A7F27A342ACE6606003859BD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F27A332ACE6606003859BD /* ModelData.swift */; };
 		A7F27A392ACE6786003859BD /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F27A382ACE6786003859BD /* LandmarkRow.swift */; };
 		A7F27A3B2ACE6A3F003859BD /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F27A3A2ACE6A3F003859BD /* LandmarkList.swift */; };
+		D3BF0AAD2ADA358300B333D4 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = D3BF0AAC2ADA358300B333D4 /* hikeData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A70746A42AD381030094CB9C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		A72094372AD8376200122CC3 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		A743953F2AD5D3E30072831F /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hikeData.json; path = ../../../../../../../Downloads/AnimatingViewsAndTransitions/Resources/hikeData.json; sourceTree = "<group>"; };
 		A74395422AD5D4520072831F /* GraphCapsule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
 		A74395432AD5D4520072831F /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		A74395442AD5D4520072831F /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
@@ -82,6 +81,7 @@
 		A7F27A332ACE6606003859BD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A7F27A382ACE6786003859BD /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		A7F27A3A2ACE6A3F003859BD /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		D3BF0AAC2ADA358300B333D4 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hikeData.json; path = ../../../../../Downloads/InterfacingWithUIKit/StartingPoint/Landmarks/Resources/hikeData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,7 +225,7 @@
 		A7F27A362ACE671D003859BD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A743953F2AD5D3E30072831F /* hikeData.json */,
+				D3BF0AAC2ADA358300B333D4 /* hikeData.json */,
 				A7F27A2F2ACE6389003859BD /* landmarkData.json */,
 			);
 			path = Resources;
@@ -300,10 +300,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A74395402AD5D3E30072831F /* hikeData.json in Resources */,
 				A753DE052ACD001E00E47300 /* Preview Assets.xcassets in Resources */,
 				A753DE022ACD001E00E47300 /* Assets.xcassets in Resources */,
 				A7F27A302ACE6389003859BD /* landmarkData.json in Resources */,
+				D3BF0AAD2ADA358300B333D4 /* hikeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
