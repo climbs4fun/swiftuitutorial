@@ -41,6 +41,7 @@
 		A7F27A342ACE6606003859BD /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F27A332ACE6606003859BD /* ModelData.swift */; };
 		A7F27A392ACE6786003859BD /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F27A382ACE6786003859BD /* LandmarkRow.swift */; };
 		A7F27A3B2ACE6A3F003859BD /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F27A3A2ACE6A3F003859BD /* LandmarkList.swift */; };
+		D39C31AC2ADB18A000899672 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39C31AB2ADB18A000899672 /* PageControl.swift */; };
 		D3BF0AAD2ADA358300B333D4 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = D3BF0AAC2ADA358300B333D4 /* hikeData.json */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		A7F27A332ACE6606003859BD /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A7F27A382ACE6786003859BD /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		A7F27A3A2ACE6A3F003859BD /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		D39C31AB2ADB18A000899672 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		D3BF0AAC2ADA358300B333D4 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hikeData.json; path = ../../../../../Downloads/InterfacingWithUIKit/StartingPoint/Landmarks/Resources/hikeData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 				A72094372AD8376200122CC3 /* PageViewController.swift */,
 				A7585EF12AD8C2210070EBFB /* FeatureCard.swift */,
 				A7585EF32AD8C9100070EBFB /* PageView.swift */,
+				D39C31AB2ADB18A000899672 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				A74395492AD5D4520072831F /* HikeView.swift in Sources */,
 				A70746A52AD381030094CB9C /* FavoriteButton.swift in Sources */,
 				A7F27A3B2ACE6A3F003859BD /* LandmarkList.swift in Sources */,
+				D39C31AC2ADB18A000899672 /* PageControl.swift in Sources */,
 				A7B03DAC2AD647EE00FA8A5B /* CategoryItem.swift in Sources */,
 				A7E9A7B82AD496C6002C984B /* BadgeSymbol.swift in Sources */,
 				A7B03DB32AD6EFAB00FA8A5B /* ProfileSummary.swift in Sources */,
